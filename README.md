@@ -1,4 +1,6 @@
-# Clone Public Repositories for Associated Github User
+# Clone Public Repositories Script
+
+> Bash script to clone all public repositories for Github account
 
 ## Setup
 

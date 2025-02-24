@@ -1,10 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 : << 'COMMENT'
 Purpose: Bash script to clone all public repositories associated with a github account also creates file structure in current directory
 Date: 2/17/2025
 Author: Max Hoffman
 COMMENT
 
+set -euo pipefail
 
 #Get Github username
 echo "Enter Github username to clone all public repos associated with it"
